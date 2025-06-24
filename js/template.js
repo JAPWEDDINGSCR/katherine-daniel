@@ -408,7 +408,7 @@
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-  let birthday = "Aug 30, 2025 14:30:00",
+  let birthday = "Aug 30, 2025 13:30:00",
       countDown = new Date(birthday).getTime(),
       x = setInterval(function() {    
         let now = new Date().getTime(),
